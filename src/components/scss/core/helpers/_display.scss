@@ -1,0 +1,15 @@
+.dis {
+  display: block!important;
+
+  &--in {
+    display: inline!important;
+  }
+
+  &--inb {
+    display: inline-block!important;
+  }
+
+  &--intb {
+    display: inline-table!important;
+  }
+}

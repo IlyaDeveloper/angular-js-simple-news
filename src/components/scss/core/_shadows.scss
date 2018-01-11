@@ -1,0 +1,31 @@
+/* Shadow style variable *******************************************************************/
+$signature-hover-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.35);
+$signature-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+$input-insert-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+$form-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
+$button-shadow: 0px 0px 2px 0px rgba(255, 219, 77, 0.6);
+$button-shadow2:  0px 0px 7px 0px rgba(255, 219, 77, 0.8);
+$input-shadow-yandex-yellow: 0 0 10px #fc0;
+$input-shadow-yellow: 0px 0px 10px 0px rgba(249,227,139,1);
+$radio-btn-border-gradient: linear-gradient(to bottom, #bfbaac 0%,#e5e1d0 99%);
+$select-shadow: 0px 16px 26px -7px rgba(0,0,0,0.32);
+
+$popup-shadow: 0 0 0 1px rgba(0,0,0,.06), 0 10px 20px -5px rgba(0,0,0,.4);
+$popover-shadow: 0 0 0 1px rgba(0, 0, 0, .06), 0 10px 20px -5px rgba(0, 0, 0, .4);
+
+$storage-pie-shadow: inset -2px 1px 45px -22px rgba(69,69,69,.9);
+$storage-pie-hover-shadow: inset 5px 2px 30px -16px rgba(69, 69, 69, 0.9);
+
+$compose-main-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15);
+
+//$storage-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+$storage-box-shadow: 0px 5px 16px -6px rgba(0, 0, 0, 0.25);
+$storage-box-hover-shadow: 0px 5px 21px -6px rgba(0, 0, 0, 0.25);
+
+$yellow-shadow: 0 0 0 1px rgba(0,0,0,.06), 0 10px 20px -5px rgba(0,0,0,.4);
+
+$message-nav-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
+
+$input-line-shadow: 0px 1px 0px 0px rgba($yellow-yandex,1);
+
+$compose-button-inbox-shadow: inset 0px 0px 12px 0px #c9c9c9;

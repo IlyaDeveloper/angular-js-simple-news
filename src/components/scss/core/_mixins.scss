@@ -1,0 +1,37 @@
+@mixin clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@mixin no-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    @content
+  }
+  :-moz-placeholder {
+    @content
+  }
+  ::-moz-placeholder {
+    @content
+  }
+  :-ms-input-placeholder {
+    @content
+  }
+}
+
+.placeholder--white {
+  @include placeholder {
+    color: #fff !important;
+  }
+}
+
+@mixin artificial-thickness($thick, $color) {
+  $min-think: -$thick;
+  text-shadow: $min-think 0 $color, 0 $thick $color, $thick 0 $color, 0 $min-think $color;
+}

@@ -1,0 +1,187 @@
+.pointer {
+  cursor: pointer !important;
+  &--psefd {
+    cursor: pointer !important;
+    &:before, :after, &:hover, &:focus {
+      cursor: pointer !important;
+    }
+  }
+}
+
+.height {
+  &--all {
+    height: 100% !important;
+  }
+  &--min-all {
+    min-height: 100% !important;
+  }
+  &--min30 {
+    min-height: 30px;
+  }
+
+}
+
+.float {
+  &--left {
+    float: left;
+  }
+  &--right {
+    float: right;
+  }
+}
+
+.main-title-text {
+  margin: 0 0 15px;
+  font-size: 28px;
+
+  &__icon {
+    position: relative;
+    align-items: center;
+    display: flex;
+
+    &--size27 {
+      width: 27px;
+      margin: 0 18px 0 0;
+    }
+  }
+
+}
+
+.hide {
+  visibility: hidden !important;
+  display: none !important;
+}
+
+.separate {
+  &--top {
+    border-top: 1px solid $silver-btn-color;
+  }
+}
+
+.overflow {
+  overflow: auto;
+
+  &--h {
+    overflow: hidden;
+  }
+
+  &--v {
+    overflow: visible;
+  }
+
+  &--paged-y{
+    overflow-y: -webkit-paged-y;
+  }
+}
+
+.opacity {
+  &--0 {
+    opacity: 0;
+  }
+}
+
+.border {
+  &--cl-bl-silver {
+    border-color: $border-black-silver-color;
+  }
+}
+
+.hidden {
+
+  &--1640 {
+    @media screen and (max-width: 1640px) {
+      display: none;
+    }
+  }
+
+  &--1600 {
+    @media screen and (max-width: 1600px) {
+      display: none;
+    }
+  }
+
+  &--1500 {
+    @media screen and (max-width: 1500px) {
+      display: none;
+    }
+  }
+
+  &--1420 {
+    @media screen and (max-width: 1420px) {
+      display: none;
+    }
+  }
+
+  &--1300 {
+    @media screen and (max-width: 1300px) {
+      display: none;
+    }
+  }
+
+  &--1250 {
+    @media screen and (max-width: 1250px) {
+      display: none;
+    }
+  }
+
+  &--1350 {
+    @media screen and (max-width: 1350px) {
+      display: none;
+    }
+  }
+
+  &--1380 {
+    @media screen and (max-width: 1380px) {
+      display: none;
+    }
+  }
+
+  &--1400 {
+    @media screen and (max-width: 1400px) {
+      display: none;
+    }
+  }
+
+  &--1200 {
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &--1100 {
+    @media screen and (max-width: 1100px) {
+      display: none;
+    }
+  }
+}
+
+.visible {
+  &--no {
+    display: none;
+  }
+
+  &--1640 {
+    @media screen and (max-width: 1640px) {
+      display: block;
+    }
+  }
+
+  &--1600 {
+    @media screen and (max-width: 1600px) {
+      display: block;
+    }
+  }
+
+  &--1500 {
+    @media screen and (max-width: 1500px) {
+      display: block;
+    }
+  }
+
+  &--1420 {
+    @media screen and (max-width: 1420px) {
+      display: block;
+    }
+  }
+}
+

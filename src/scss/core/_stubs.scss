@@ -1,0 +1,46 @@
+.stub {
+  &-not-image {
+    position: relative;
+    display: block;
+
+    background-color: $main-silver-hard-light-color;
+
+    @extend .icon-download-image;
+
+    &:before {
+      position: absolute;
+      top: calc(50% - (3.4rem / 2));
+      left: calc(50% - (3.4rem / 2));
+
+      font-size: 3.4rem;
+      line-height: 1;
+      font-family: 'icons-font' !important;
+      color: rgba($textBlack, .14);
+
+      backface-visibility: visible !important;
+      animation: flipInIcon 2s infinite ease-in-out;
+    }
+  }
+}
+
+@keyframes flipInIcon {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  to {
+    transform: perspective(400px);
+  }
+}

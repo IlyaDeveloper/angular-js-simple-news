@@ -1,0 +1,40 @@
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+
+  transition: all .2s;
+
+  outline: none;
+
+  &:hover, &:focus, &:active {
+    color: $textBlack;
+    text-decoration: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    transition: all .3s;
+  }
+}
+
+button {
+  padding: 0;
+
+  outline: none;
+  border: none;
+
+  border-radius: 0;
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  transition: all .3s;
+}
+
+a, button, input {
+  &:focus, &:hover {
+    outline: none;
+  }
+}
